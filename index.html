@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loopstrr</title>
+</head>
+<body>
+    <nav>
+        <div>
+            <img src="logo/Loopstrr (2).png" alt="Loopstrr official Logo">
+        </div>
+    </nav>
+    <div class="sec-1">
+        <div class="sec-1-left">
+            <h1 style="font-size: 120px;">Coming soon 🎉</h1><br>
+            <p><a class="twitter" href="https://www.twitter.com/loopstrr" target="_blank">Follow us on Twitter</a></p>
+            <!--<button class="join-button"><a type="button" href="#form">Sign Up 👇</a></button>-->
+        </div>
+        <!--<div class="sec-1-right"><img class="main" src="logo/Coming soon.jpeg"></div>-->
+    </div>
+    <div>
+        <form action="contact" id="form" onsubmit="sendEmail (); reset(); return false;">
+            <h2 style="font-size: 33px;">Sign Up for Early Access</h2><br>
+            <p>Enter your details below to be the first to try out Loopstrr.</p><br><br>
+            <label for="Name">Name</label><br><br>
+            <input id="Name" type="text" placeholder="Jack Ryan" required><br><br>
+            <label for="Email">Email</label><br><br>
+            <input id="Email" type="email" placeholder="jack@email.com" required><br><br>
+            <!--<textarea name="join-us-form" id="join" cols="30" rows="10" placeholder="Describe your technical skill, expertise, and years of experience."></textarea><br><br>-->
+            <button class="submit"><a href="#" type="button"></a>Submit</button>
+        </form>
+    </div>
+    <footer><p>&copy2023 Loopstrr, Inc. All rights reserved.</p></footer>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail () { 
+
+            Email.send({
+                Host : "smtp.sendgrid.net",
+                Username : "apikey",
+                Password : "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",
+                To : 'vics0726@gmail.com',
+                From : document.getElementById("email").value,
+                Subject : "You've got a sign up for Loopstrr 🎉",
+                Body : "Name: " + document.getElementById("name").value
+                       + "<br> Email: " + document.getElementById("email").value,
+            }).then(
+            message => alert("Your request has been submitted successfully!")
+            );
+
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+    html {
+        scroll-behavior: smooth;
+    }
+
+    * {
+        max-width: 50vw;
+        margin: 0 auto;
+        font-family: 'Inter', sans-serif;
+    }
+
+    img {
+        align-items: center;
+        height: 100px;
+        width: 250px;
+        margin-left: 30%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    form {
+        margin: 20px;
+        margin-bottom: 100px;
+        border-radius: 30px;
+        background-color: #f1f1f1;
+        padding: 70px;
+    }
+
+    h2 {
+        font-size: 20px;
+        color: #333333;
+    }
+
+    label {
+        color: #333333;
+    }
+
+    input {
+        width: 500px;
+        height: 25px;
+        border: none;
+        border-radius: 11px;
+        padding: 20px;
+        display: inline;
+    }
+
+    .guidelines {
+        font-size: 12px;
+        color: rgb(119, 119, 119);
+    }
+
+    .forgot-pass {
+        font-size: 12px;
+        color: #334eff;
+        float: right;
+    }
+
+    .forgot-pass:hover {
+        text-decoration: none;
+        color: #334eff;
+    }
+
+    .forgot-pass:visited {
+        text-decoration: none;
+        color: #334eff;
+    }
+
+    .forgot-email {
+        font-size: 12px;
+        color: #334eff;
+        float: right;
+    }
+
+    .forgot-email:hover {
+        text-decoration: none;
+        color: #334eff;
+    }
+
+    .forgot-email:visited {
+        text-decoration: none;
+        color: #334eff;
+    }
+
+    /*textarea {
+        width: 500px;
+        height: 33px;
+        border: none;
+        border-radius: 11px;
+        padding: 10px;
+    }*/
+
+    .sign-in {
+        width: 150px;
+        height: 50px;
+        border: none;
+        border-radius: 100px;
+        background-color: #334eff;
+        color: white;
+        font-weight: bold;
+    }
+
+    .sign-in:hover {
+        background-color: #4265ff;
+        /*box-shadow: 10px 10px 10px 10px rgb(222, 222, 222);*/
+    }
+
+    .create-account {
+        font-size: 13px;
+        color: #334eff;
+        text-decoration: none;
+    }
+
+    .create-account:hover {
+        color: #4265ff;
+    }
+
+    @media screen and (max-width: 767px) {
+        input {
+            width: 100%
+        }
+        
+        .h2 {
+            font-size: 15px;
+        }
+    }
+
+
+
+
+
+
+
+
+

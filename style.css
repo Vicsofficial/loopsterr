@@ -1,3 +1,6 @@
+
+  
+
     html {
         scroll-behavior: smooth;
     }
@@ -14,7 +17,7 @@
 
     nav {
         margin: 20px;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
         /*box-shadow: 30px 30px 30px 30px rgb(222, 222, 222);*/
     }
 
@@ -30,6 +33,7 @@
 
     .nav-link {
         margin-top: 30px;
+        margin-bottom: 50px;
         display: block;
         text-align: right;
         padding-bottom: 0px;
@@ -51,9 +55,8 @@
 
     .sec-1 {
         margin: 20px;
-        display: inline;
-        padding-bottom: 100px;
-        margin-top: 10px;
+        padding-bottom: 50px;
+        padding-top: 150px;
     }
 
     .sec-1-left {
@@ -179,7 +182,7 @@
 
 
 
-    
+
 
 
 

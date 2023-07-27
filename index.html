@@ -12,8 +12,13 @@
 </head>
 <body>
     <nav>
+        <div class="logo">
+            <img src="logo/Loopstrr (2).png" alt="Loopstrr official Logo">
+        </div>
         <div>
-            <img src="Loopstrr (2).png" alt="Loopstrr Official Logo">
+            <ul>
+                <li class="nav-link"><a href="login.html" target="_blank">Sign in</a></li>
+            </ul>
         </div>
     </nav>
     <div class="sec-1">
@@ -32,20 +37,19 @@
             <input id="Name" type="text" placeholder="Jack Ryan" required><br><br>
             <label for="Email">Email</label><br><br>
             <input id="Email" type="email" placeholder="jack@email.com" required><br><br>
-            <!--<textarea name="join-us-form" id="join" cols="30" rows="10" placeholder="Describe your technical skill, expertise, and years of experience."></textarea><br><br>-->
             <button class="submit"><a href="#" type="button"></a>Submit</button>
         </form>
     </div>
     <footer><p>&copy2023 Loopstrr, Inc. All rights reserved.</p></footer>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <!--<script src="https://smtpjs.com/v3/smtp.js"></script>
     <script>
         function sendEmail () { 
 
             Email.send({
-                Host : "smtp.sendgrid.net",
-                Username : "Intentionally left blank",
-                Password : "Intentionally left blank",
-                To : 'Intentionally left blank',
+                Host : "---",
+                Username : "---",
+                Password : "---",
+                To : '---',
                 From : document.getElementById("email").value,
                 Subject : "You've got a sign up for Loopstrr 🎉",
                 Body : "Name: " + document.getElementById("name").value
@@ -55,6 +59,6 @@
             );
 
         }
-    </script>
+    </script>-->
 </body>
 </html>

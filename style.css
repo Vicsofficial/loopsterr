@@ -1,6 +1,3 @@
-@media only screen and (max-width: 3000px) {
-    
-
     html {
         scroll-behavior: smooth;
     }
@@ -17,14 +14,37 @@
 
     nav {
         margin: 20px;
+        margin-bottom: 30px;
         /*box-shadow: 30px 30px 30px 30px rgb(222, 222, 222);*/
-        border-radius: 33px;
     }
 
     nav img {
-        padding: 20px;
-        height: 100px;
-        width: 250px;
+    
+    height: auto;
+    width: 15%;
+    }
+
+    .logo {
+        float: left;
+    }
+
+    .nav-link {
+        margin-top: 30px;
+        display: block;
+        text-align: right;
+        padding-bottom: 0px;
+        color: #334eff;
+        text-decoration: none;
+    }
+
+    .nav-link:hover {
+        color: #4265ff;
+        text-decoration: none;
+    }
+
+    .nav-link:visited {
+        color: #334eff;
+        text-decoration: none;
     }
 
     .sec-1 {
@@ -128,7 +148,12 @@
 
     .submit:hover {
         background-color: #4265ff;
-        box-shadow: 10px 10px 10px 10px rgb(222, 222, 222);
+        /*box-shadow: 10px 10px 10px 10px rgb(222, 222, 222);*/
+    }
+
+    .submit:visited {
+        background-color: #334eff;
+        color: white;
     }
 
     footer {
@@ -139,7 +164,20 @@
         margin-bottom: 100px;
         margin-top: 50px;
     }
-}
+
+
+    @media screen and (max-width: 767px) {
+        input {
+            width: 100%;
+            width: 100%;
+            box-sizing: border-box;
+        }
+    }
+
+
+
+
+    
 
 
 

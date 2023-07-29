@@ -1,0 +1,196 @@
+
+  
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    * {
+        max-width: 90vw;
+        margin: 0 auto;
+        font-family: 'Inter', sans-serif;
+    }
+
+    p {
+        color: #333333;
+    }
+
+    nav {
+        margin: 20px;
+        margin-bottom: 50px;
+        /*box-shadow: 30px 30px 30px 30px rgb(222, 222, 222);*/
+    }
+
+    nav img {
+    
+    height: auto;
+    width: 15%;
+    }
+
+    .logo {
+        float: left;
+    }
+
+    .nav-link {
+        margin-top: 30px;
+        margin-bottom: 50px;
+        display: block;
+        text-align: right;
+        padding-bottom: 0px;
+        color: #334eff;
+        text-decoration: none;
+        float: right;
+        margin: 20px;
+    }
+
+    .nav-link:hover {
+        color: #4265ff;
+        text-decoration: none;
+    }
+
+    .nav-link:visited {
+        color: #334eff;
+        text-decoration: none;
+    }
+
+    .sec-1 {
+        margin: 20px;
+        padding-bottom: 50px;
+        padding-top: 150px;
+    }
+
+    .sec-1-left {
+        margin: 20px;
+        padding: 20px;
+        padding-top: 33px;
+    }
+
+    .twitter {
+        text-decoration: none;
+        color: #334eff;
+    }
+
+    .twitter:hover {
+        color: #4265ff;
+    }
+
+    .join-button {
+        width: 150px;
+        height: 50px;
+        border: none;
+        border-radius: 100px;
+        background-color: #3343ff;
+        color: white !important;
+        text-decoration: none;
+        font-weight: bold;
+        
+    }
+
+    .join-button:visited {
+        color: white;
+        text-decoration: none;
+        box-shadow: 10px 10px 10px 10px rgb(222, 222, 222);
+    }
+
+    .join-button:hover {
+        background-color: #4265ff;
+        text-decoration: none;
+    }
+
+    .sec-1-right {
+        margin: 20px;
+        border: 3px solid black;
+    }
+
+    .main {
+        height: 500px;
+        width: 500px;
+        border-radius: 33px;
+        box-shadow: 30px 30px 30px 30px rgb(222, 222, 222);
+        background-image: url(logo/Coming\ soon.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    form {
+        margin: 20px;
+        border-radius: 30px;
+        background-color: #f1f1f1;
+        padding: 50px;
+    }
+
+    h2 {
+        font-size: 33px;
+    }
+
+    input {
+        width: 333px;
+        height: 25px;
+        border: none;
+        border-radius: 11px;
+        padding: 20px;
+        display: inline;
+    }
+
+    /*textarea {
+        width: 500px;
+        height: 33px;
+        border: none;
+        border-radius: 11px;
+        padding: 10px;
+    }*/
+
+    .submit {
+        width: 150px;
+        height: 50px;
+        border: none;
+        border-radius: 100px;
+        background-color: #334eff;
+        color: white;
+        font-weight: bold;
+    }
+
+    .submit:hover {
+        background-color: #4265ff;
+        /*box-shadow: 10px 10px 10px 10px rgb(222, 222, 222);*/
+    }
+
+    .submit:visited {
+        background-color: #334eff;
+        color: white;
+    }
+
+    footer {
+        margin: 20px;
+        padding: 50px;
+        border-radius: 30px;
+        background-color: #f1f1f1;
+        margin-bottom: 100px;
+        margin-top: 50px;
+    }
+
+
+    @media screen and (max-width: 767px) {
+        input {
+            width: 100%;
+            width: 100%;
+            box-sizing: border-box;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

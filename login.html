@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loopstrr</title>
+</head>
+<body>
+    <img src="logo/Loopsterr main logo.png" alt="Loopstrr official Logo">
+    <div>
+        <form action="contact" id="form" onsubmit="sendEmail (); reset(); return false;">
+            <h2 style="font-size: 33px;">Welcome to Loopsterr 👋</h2><br>
+            <p>Sign in or create a new account.</p><br><br><br>
+            <!--<label for="Name">Full Name</label><br><br>
+            <input id="Name" type="text" placeholder="Jack Ryan" required><br><br>
+            <label for="Name">Username</label><br><br>
+            <input id="Username" type="text" placeholder="@username" required><br><br>
+                <p class="guidelines">Must not contain . , ! $ % & or other special characters.</p><br><br>-->
+            <label for="Email">Email</label><br><br>
+            <input id="Email" type="email" placeholder="jack@email.com" required><br><br>
+            <p class="forgot-email"><a href="#">Forgot email?</a></p><br><br>
+            <label for="Password">Password</label><br><br>
+            <input id="Password" type="text" placeholder="********" required><br><br>
+                <p class="forgot-pass"><a href="#">Forgot password?</a></p><br><br>
+                <!--<p class="guidelines">Must be minimum 8 characters long.</p>
+                <p class="guidelines">Must contain a mix of letters and numbers.</p>
+                <p class="guidelines">Must be complex for others to guess and easy to remember for you.</p><br><br>-->
+            <!--<textarea name="join-us-form" id="join" cols="30" rows="10" placeholder="Describe your technical skill, expertise, and years of experience."></textarea><br><br>-->
+            <button class="sign-in"><a href="#" type="button"></a>Sign In</button><br><br>
+            <p class="guidelines">By signing in, you are agreeing to our terms of use and privacy.</p><br><br>
+    <h4>Don't have a Loopsterr account?</h4>
+    <p>
+        <a class="create-account" href="signup.html">Create one for free</a>
+    </p>
+    </div>
+</body>
+</html>

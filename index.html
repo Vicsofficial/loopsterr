@@ -12,19 +12,25 @@
 </head>
 <nav>
     <div class="logo">
-        <a href="index.html"><img src="Loopsterr main logo.png" alt="Loopsterr Official Logo"></a>
+        <a href="index.html"><img src="Loopster Transperent.png" alt="Loopsterr Official Logo"></a>
     </div>
-    <div>
+    <!--<div>
         <ul>
             <li class="nav-link"><a href="signup.html" target="_blank">Create Account</a></li>
             <li class="nav-link"><a href="login.html" target="_blank">Sign In</a></li>
         </ul>
-    </div>
+    </div>-->
 </nav>
 <body>
     <section class="sec-1">
         <div>
-                <h1 style="font-size: 120px;">Coming soon 🎉</h1><br>
+                <h3 style="font-size: 66px; text-align: center; color: white;">Loopsterr is <br>launching soon</h3><br><br>
+                <p style="font-size: 15px; text-align: center; color: #f1f1f1;">Loopsterr is an independant video journalism 
+                    platform <br>that allows anyone to record and report the latest stories 
+                    from <br>around the world. With Loopsterr, we aspire to show real and 
+                    <br>unfabricated stories that shed light on the truth and
+                    are <br>brought to the people by the people.
+                </p>
                 <!--<p><a class="twitter" href="https://www.twitter.com/loopstrr" target="_blank">Follow us on Twitter</a></p>-->
                 <!--<button class="join-button"><a type="button" href="#form">Sign Up 👇</a></button>-->
             </div>
@@ -33,17 +39,19 @@
         <div>
     </section>
         <form action="contact" id="form" onsubmit="sendEmail (); reset(); return false;">
-            <h2 style="font-size: 33px;">Sign Up for Early Access</h2><br>
-            <p>Enter your details below to be the first to try out Loopsterr.</p><br><br>
-            <label for="Name">Name</label><br><br>
-            <input id="Name" type="text" placeholder="Jack Ryan" required><br><br>
-            <label for="Email">Email</label><br><br>
-            <input id="Email" type="email" placeholder="jack@email.com" required><br><br>
-            <!--<textarea name="join-us-form" id="join" cols="30" rows="10" placeholder="Describe your technical skill, expertise, and years of experience."></textarea><br><br>-->
-            <button class="submit"><a href="#" type="button"></a>Submit</button>
+            <div class="form-inner">
+                <h2>Join the Waitlist</h2><br>
+                <p>Join us in our mission to make citizen journalism <a href="#"><br>truly real</a>.</p><br><br>
+                <label for="Name">Name</label><br><br>
+                <input id="Name" type="text" placeholder="Jack Ryan" required><br><br>
+                <label for="Email">Email</label><br><br>
+                <input id="Email" type="email" placeholder="jack@email.com" required><br><br>
+                <!--<textarea name="join-us-form" id="join" cols="30" rows="10" placeholder="Describe your technical skill, expertise, and years of experience."></textarea><br><br>-->
+                <button class="submit"><a href="#" type="button"></a>Submit</button>
+            </div>
         </form>
     </div>
-    <footer><p>&copy2023 Loopsterr, Inc. All rights reserved.</p></footer>
+    <footer><p style="color: white;">&copy2023 Loopsterr, Inc. All rights reserved.</p></footer>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script>
         function sendEmail () { 

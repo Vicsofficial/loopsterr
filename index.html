@@ -51,7 +51,9 @@
             </div>
         </form>
     </div>
-    <footer><p style="color: white;">&copy2023 Scoopreal, Inc. All rights reserved.</p></footer>
+    <footer><p style="color: white;">&copy2023 Scoopreal, Inc. All rights reserved.</p><br>
+        <p>Follow Us <a href="https://www.twitter.com/scooprealapp" target="_blank">@scooprealapp</a></p>
+    </footer>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script>
         function sendEmail () { 
@@ -60,7 +62,7 @@
                 Host : "smtp.sendgrid.net",
                 Username : "***",
                 Password : "***",
-                To : 'vics0726@gmail.com',
+                To : '***',
                 From : document.getElementById("email").value,
                 Subject : "You've got a sign up for Scoopreal 🎉",
                 Body : "Name: " + document.getElementById("name").value

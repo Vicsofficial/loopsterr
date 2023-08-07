@@ -8,11 +8,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Poppins:wght@300&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loopsterr</title>
+    <title>Scoopreal</title>
 </head>
 <nav>
     <div class="logo">
-        <a href="index.html"><img src="Loopster Transperent.png" alt="Loopsterr Official Logo"></a>
+        <a href="index.html"><img src="Scoopreal Transparent.png" alt="Scoopreal Official Logo"></a>
     </div>
     <!--<div>
         <ul>
@@ -24,14 +24,14 @@
 <body>
     <section class="sec-1">
         <div>
-                <h3 style="font-size: 66px; text-align: center; color: white;">Loopsterr is <br>launching soon</h3><br><br>
-                <p style="font-size: 15px; text-align: center; color: #f1f1f1;">Loopsterr is an independent video journalism 
+                <h3 style="font-size: 66px; text-align: center; color: white;">Scoopreal is <br>launching soon</h3><br><br>
+                <p style="font-size: 15px; text-align: center; color: #f1f1f1;">Scoopreal is an independant video journalism 
                     platform <br>that allows anyone to record and report the latest stories 
-                    from <br>around the world. With Loopsterr, we aspire to show real and 
+                    from <br>around the world. With Scoopreal, we aspire to show real and 
                     <br>unfabricated stories that shed light on the truth and
                     are <br>brought to the people by the people.
                 </p>
-                <!--<p><a class="twitter" href="https://www.twitter.com/loopstrr" target="_blank">Follow us on Twitter</a></p>-->
+                <!--<p><a class="twitter" href="https://www.twitter.com/scooprealapp" target="_blank">Follow us on Twitter</a></p>-->
                 <!--<button class="join-button"><a type="button" href="#form">Sign Up 👇</a></button>-->
             </div>
             <!--<div class="sec-1-right"><img class="main" src="logo/Coming soon.jpeg"></div>-->
@@ -51,20 +51,18 @@
             </div>
         </form>
     </div>
-    <footer><p style="color: white;">&copy2023 Loopsterr, Inc. All rights reserved.</p><br>
-        <p>Twitter <a style="color: #334eff"; text-decoration: none; href="https://www.twitter.com/loopsterrapp" target="_blank">@loopsterrapp</a></p>
-    </footer>
+    <footer><p style="color: white;">&copy2023 Scoopreal, Inc. All rights reserved.</p></footer>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script>
         function sendEmail () { 
 
             Email.send({
-                Host : "intentionally left blank",
-                Username : "apikey",
-                Password : "intentionally left blank",
-                To : 'intentionally left blank',
+                Host : "smtp.sendgrid.net",
+                Username : "***",
+                Password : "***",
+                To : 'vics0726@gmail.com',
                 From : document.getElementById("email").value,
-                Subject : "You've got a sign up for Loopsterr 🎉",
+                Subject : "You've got a sign up for Scoopreal 🎉",
                 Body : "Name: " + document.getElementById("name").value
                        + "<br> Email: " + document.getElementById("email").value,
             }).then(
